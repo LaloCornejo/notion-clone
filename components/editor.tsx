@@ -17,7 +17,7 @@ interface EditorProps {
   onChange: (value: string) => void;
   initialContent?: string;
   editable?: boolean;
-};
+}
 
 const Editor = ({
   onChange,
@@ -37,9 +37,7 @@ const Editor = ({
 
   const editor: BlockNoteEditor = useBlockNote({
     editable,
-    initialContent: initialContent
-      ? JSON.parse(initialContent) as PartialBlock<any, any, any>[]
-      : undefined,
+    initialContent: initialContent ? JSON.parse(initialContent) as PartialBlock[] : undefined,
     onEditorContentChange: (editor) => {
       onChange(JSON.stringify(editor.topLevelBlocks, null, 2));
     },
