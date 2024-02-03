@@ -55,6 +55,7 @@ export default function RootLayout({
             </ThemeProvider>
           </EdgeStoreProvider>
         </ConvexClientProvider>
+        <SpeedInsights />
       </body>
     </html>
   );
