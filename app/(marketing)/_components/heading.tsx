@@ -17,7 +17,7 @@ export const Heading = () => {
         <span className="underline">LÆLÖ</span>
       </h1>
       <h3 className="text-base sm:text-xl md:text-2xl font-medium">
-        LÆLÖ's Notion Clone :D
+        {"LÆLÖ's Notion Clone :D"}
       </h3>
       {isLoading && (
         <div className="w-full flex items-center justify-center">
