@@ -14,18 +14,18 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "LÆLÖ Notes",
-  description: "The conected workspace where better, faster work happens",
+  description: ":) Notes xdd",
   icons: {
     icon: [
       {
         media: "(prefers-color-scheme: light)",
-        url: "/favicon.ico",
-        href: "/favicon.ico",
+        url: "/public/favicon.ico",
+        href: "/public/favicon.ico",
       },
       {
         media: "(prefers-color-scheme: dark)",
-        url: "/favicon.ico",
-        href: "/favicon.ico",
+        url: "/public/favicon.icofavicon.ico",
+        href: "/public/favicon.ico",
       },
     ],
   },
